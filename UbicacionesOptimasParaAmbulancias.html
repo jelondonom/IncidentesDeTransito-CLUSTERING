@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fd5513d2ccdede1081eae40d669ba168 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fd5513d2ccdede1081eae40d669ba168" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fd5513d2ccdede1081eae40d669ba168 = L.map(
+                "map_fd5513d2ccdede1081eae40d669ba168",
+                {
+                    center: [6.24, -75.58],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e2e064ea17e84647b3f99cf590b7d9a2 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_3ixq_1_499bd6e368b55517c5ad58d5",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; OpenStreetMap contributors, \u0026copy; CARTO",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e2e064ea17e84647b3f99cf590b7d9a2.addTo(map_fd5513d2ccdede1081eae40d669ba168);
+        
+    
+            var marker_18e44ef33b093a60af8cdb6e81dced78 = L.marker(
+                [6.253231802789621, -75.59984790002851],
+                {
+}
+            ).addTo(map_fd5513d2ccdede1081eae40d669ba168);
+        
+    
+            var icon_9a441155b9dd2c22429efc15bf170d1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea7317308c64dec4ded12229261bcb1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f9d04e630cc7053cb3c4b20180bd85d = $(`<div id="html_1f9d04e630cc7053cb3c4b20180bd85d" style="width: 100.0%; height: 100.0%;">Ambulancia - Cluster 0</div>`)[0];
+                popup_ea7317308c64dec4ded12229261bcb1e.setContent(html_1f9d04e630cc7053cb3c4b20180bd85d);
+            
+        
+
+        marker_18e44ef33b093a60af8cdb6e81dced78.bindPopup(popup_ea7317308c64dec4ded12229261bcb1e)
+        ;
+
+        
+    
+    
+                marker_18e44ef33b093a60af8cdb6e81dced78.setIcon(icon_9a441155b9dd2c22429efc15bf170d1c);
+            
+    
+            var marker_f25e678ebb35b297753ad116b3402cd9 = L.marker(
+                [6.249201468131031, -75.56595560467156],
+                {
+}
+            ).addTo(map_fd5513d2ccdede1081eae40d669ba168);
+        
+    
+            var icon_3f1b75f54483f0d2a96047742fe98d5a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1bce39d052b8580abd3d8f7533439adb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39af14ab4d6fd2d1eaba1d242570c59d = $(`<div id="html_39af14ab4d6fd2d1eaba1d242570c59d" style="width: 100.0%; height: 100.0%;">Ambulancia - Cluster 1</div>`)[0];
+                popup_1bce39d052b8580abd3d8f7533439adb.setContent(html_39af14ab4d6fd2d1eaba1d242570c59d);
+            
+        
+
+        marker_f25e678ebb35b297753ad116b3402cd9.bindPopup(popup_1bce39d052b8580abd3d8f7533439adb)
+        ;
+
+        
+    
+    
+                marker_f25e678ebb35b297753ad116b3402cd9.setIcon(icon_3f1b75f54483f0d2a96047742fe98d5a);
+            
+    
+            var marker_bc0b4254a46bd6eba36e4271d834e5a9 = L.marker(
+                [6.286685070854173, -75.567215309177],
+                {
+}
+            ).addTo(map_fd5513d2ccdede1081eae40d669ba168);
+        
+    
+            var icon_4499e15a3e94ab8dbb8bc933679cc71e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa9547aaf04272c976f79868d5050fe4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32bdd2883dce13812d989e8cf0c613f9 = $(`<div id="html_32bdd2883dce13812d989e8cf0c613f9" style="width: 100.0%; height: 100.0%;">Ambulancia - Cluster 2</div>`)[0];
+                popup_fa9547aaf04272c976f79868d5050fe4.setContent(html_32bdd2883dce13812d989e8cf0c613f9);
+            
+        
+
+        marker_bc0b4254a46bd6eba36e4271d834e5a9.bindPopup(popup_fa9547aaf04272c976f79868d5050fe4)
+        ;
+
+        
+    
+    
+                marker_bc0b4254a46bd6eba36e4271d834e5a9.setIcon(icon_4499e15a3e94ab8dbb8bc933679cc71e);
+            
+    
+            var marker_25270baca3f67827d62903df432ddd34 = L.marker(
+                [6.212762500734593, -75.57838563072315],
+                {
+}
+            ).addTo(map_fd5513d2ccdede1081eae40d669ba168);
+        
+    
+            var icon_cc0f2653c1a470b89e6af3fb27b5dfab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be033dcfe6db15dc3a042293174c2c50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_896c501a6868be26a77ae31c4c4443fc = $(`<div id="html_896c501a6868be26a77ae31c4c4443fc" style="width: 100.0%; height: 100.0%;">Ambulancia - Cluster 3</div>`)[0];
+                popup_be033dcfe6db15dc3a042293174c2c50.setContent(html_896c501a6868be26a77ae31c4c4443fc);
+            
+        
+
+        marker_25270baca3f67827d62903df432ddd34.bindPopup(popup_be033dcfe6db15dc3a042293174c2c50)
+        ;
+
+        
+    
+    
+                marker_25270baca3f67827d62903df432ddd34.setIcon(icon_cc0f2653c1a470b89e6af3fb27b5dfab);
+            
+    
+            var marker_c7345469563b9979ec83181421c6b13e = L.marker(
+                [6.188249946212997, -75.65764588110804],
+                {
+}
+            ).addTo(map_fd5513d2ccdede1081eae40d669ba168);
+        
+    
+            var icon_ebf2e351e5310de198ab4a99109ebba8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32271ddda6ba4ba53fd2bf8983bd9a67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1fb126fd8df0bf1ab45e075e85efe5e = $(`<div id="html_e1fb126fd8df0bf1ab45e075e85efe5e" style="width: 100.0%; height: 100.0%;">Ambulancia - Cluster 4</div>`)[0];
+                popup_32271ddda6ba4ba53fd2bf8983bd9a67.setContent(html_e1fb126fd8df0bf1ab45e075e85efe5e);
+            
+        
+
+        marker_c7345469563b9979ec83181421c6b13e.bindPopup(popup_32271ddda6ba4ba53fd2bf8983bd9a67)
+        ;
+
+        
+    
+    
+                marker_c7345469563b9979ec83181421c6b13e.setIcon(icon_ebf2e351e5310de198ab4a99109ebba8);
+            
+</script>
+</html>
